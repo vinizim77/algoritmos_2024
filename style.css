@@ -1,0 +1,45 @@
+.painel{
+border: 1px solid black;
+width: 400px;
+height: 400px;
+margin: auto;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 15px;
+background:  #d9b650; 
+}
+
+#n1, #n2{
+    width: 310px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.botão{
+    color: white;
+    background-color: #83580b;;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1 px 2px 1px black;
+}
+
+.botão:hover{
+
+    background-color: #37076e;
+    box-shadow: 1px 1px 2px;
+    transition: 1s;
+}
+
+#resultado{
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+}
+
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/ponto-de-interroga%C3%A7%C3%A3o-luxo-sobre-o-fundo-suave-e-luz-preto-d-renderiza%C3%A7%C3%A3o-do-p%C3%B3dio-superior-274583041.jpg);
+    background-size: cover;
+}

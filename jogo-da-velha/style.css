@@ -1,0 +1,81 @@
+.quadrado{
+    width: 200px;   /*largura*/
+    height: 200px;  /*altura*/
+    font-size: 150px; /*tamanho da fonte*/
+    background-color: darkslateblue; /*cor de fundo*/
+    color: white; /*cor da letra*/
+    border-radius: 15px; /*arredondar bordas*/
+}
+
+.painel{
+    width: 1000px;      /*largura da div*/
+    border: 1px solid black; /*borda*/
+    margin: auto;        /*centralizar div*/
+    text-align: center;  /*centralizar conteúdo*/
+    padding: 40px;       /*espaçamento interno*/
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.601);
+     /*animation: animar infinite alternate ; */
+    /* animation-duration: 1s; */
+    display: flex;
+
+}
+
+@keyframes animar {
+    0% { box-shadow: 2px 2px 20px blue; transform: translateX(400px); }
+    25% { box-shadow: 2px 2px 20px red; transform: translateY(-400px);}
+    50% { box-shadow: 2px 2px 20px green; transform: translateX(50px);}
+    75% { box-shadow: 2px 2px 20px orange; transform: translateX(200px);}
+    100% { box-shadow: 2px 2px 20px yellow;transform: translateZ(2000px);}
+}
+
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/uma-pintura-de-um-lago-de-montanha-com-uma-montanha-ao-fundo_188544-9126.jpg);
+    background-size: cover;
+}
+
+.jogo{
+    margin: auto;
+}
+
+button{
+    background-color: rgb(255, 0, 0);   /*cor do botão*/
+    color: rgb(255, 255, 255);               /*cor da letra*/
+    border: none;                 /*desativar borda*/
+    padding: 10px;                /*espaçamento interno*/
+    margin-top: 20px;             /*margem de cima*/
+    border-radius: 10px;          /*arredondar botão*/
+}
+/*quando passar o mouse no botão aplica efeito*/
+button:hover{
+    background-color: orangered;   /*cor de fundo*/
+    transition: 2s;                  /*tempo de transição*/
+}
+
+#q1{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+#q2{
+    background-color: rgba(255, 255, 0, 0.482);
+}
+#q3{
+    background-color: rgba(0, 128, 0, 0.52);
+}
+#q4{
+    background-color: rgba(0, 0, 255, 0.542);
+}
+#q5{
+    background-color: rgba(255, 166, 0, 0.502);
+}
+#q6{
+    background-color: rgba(105, 105, 105, 0.546);
+}
+#q7{
+    background-color: rgba(30, 143, 255, 0.538);
+}
+#q8{
+    background-color: rgba(255, 105, 180, 0.493);
+}
+#q9{
+    background-color: rgba(172, 255, 47, 0.511);
+}
