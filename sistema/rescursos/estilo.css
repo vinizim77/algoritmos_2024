@@ -1,0 +1,22 @@
+.menu{
+    background-color: #353d44;
+    color: white;
+    list-style: none;
+    height: 100vh;
+}
+
+.menu-item{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    display: block;
+    padding: 1opx 20px;
+    margin-left: -40px;
+}
+
+.menu-item:hover{
+font-style: none;
+text-decoration: none;
+color: cornflowerblue;
+font-size: 20px;
+}
